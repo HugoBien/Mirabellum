@@ -34,12 +34,12 @@ jobs:
 
       - name: Build Angular
         run: |
-          npm run build -- --configuration production --base-href /Mirabellum-website/
+          npm run build -- --configuration production --base-href /Mirabellum/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/mirabellum-website
+          path: dist/mirabellum
 
   deploy:
     needs: build
