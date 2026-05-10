@@ -1,5 +1,5 @@
 {
-  "name": "mirabellum-website",
+  "name": "mirabellum",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:mirabellum-website": "node dist/mirabellum-website/server/server.mjs"
+    "serve:ssr:mirabellum": "node dist/mirabellum/server/server.mjs"
   },
   "private": true,
   "packageManager": "npm@11.12.1",
